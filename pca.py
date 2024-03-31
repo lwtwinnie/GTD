@@ -52,3 +52,15 @@ weights = get_pca_weights(data_scaled)
 # 打印每个维度的权重数值
 for i, weight in enumerate(weights):
     print(f"Dimension {i + 1} weight: {weight}")
+# 结果：
+# Dimension 1 weight: 0.40786456067375637
+# Dimension 2 weight: 0.1577808946477653
+# Dimension 3 weight: 0.12326628498876713
+# Dimension 4 weight: 0.08256812872246881
+# Dimension 5 weight: 0.06637840451389275
+# Dimension 6 weight: 0.05914609994809854
+# Dimension 7 weight: 0.045018426494194304
+# Dimension 8 weight: 0.03716354039794461
+# Dimension 9 weight: 0.012539977232789113
+# Dimension 10 weight: 0.00827368238032306
+# Dimension 11 weight: 1.586312073522102e-28
